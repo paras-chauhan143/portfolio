@@ -1,0 +1,259 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+ </head>
+ <body>
+
+    <div id="header">
+<div class="container">
+
+    <nav>
+        <img src="logo2.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio </a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>WEB DEVELOPER</p>
+        <h1>Hi,I'm <br><span>Paras</span> Chauhan </h1>
+    </div>
+</div>
+    </div>
+
+<!-- about section -->
+
+    <div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col1">
+            <img src="or3.jpg" >
+        </div>
+         <div class="about-col2">
+            <h1 class="sub-title">About me</h1>
+            <p>A responsible and detail-oriented MCA student with a strong foundation in programming and web development. Eager to apply my skills in real-world projects and gain professional experience.</p>
+        
+            <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li>c++</li><br>
+            <li>HTML5</li><br>
+            <li>CSS</li><br>
+            <li>JavaScript</li><br>
+            <li>ReactJs</li><br>
+            <li>Typescript</li><br>
+            <li>SQL</li><br>
+            <li>NodeJs</li><br>
+            <li>MongoDB</li><br>
+            <li>Git/Github</li><br>
+    </ul>
+</div>
+
+<div class="tab-contents" id="projects">
+<li><span class="change">Medical Store Web App</span><br> Built a responsive medical product ordering platform using ReactJS. Features include dynamic product listing, cart management, and client-side routing. Integrated mock APIs using JSON Server and deployed the project on Vercel.</li><br>
+</div>
+
+<div class="tab-contents" id="education">
+<ul>
+    <li  ><span class="change">2026</span><br> MCA from IMS ENGINEER COLLEGE GHAZIABAD</li>
+    
+</ul>
+
+</div>
+
+        </div>
+    </div>
+</div>
+
+    </div>
+
+<!--services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="servicelist">
+         <div>
+            <i class="fas fa-code"></i>
+            <h2> web Development</h2>
+            <p>I design and build responsive, fast, and secure websites using the latest technologies like HTML, CSS, JavaScript, and the MERN stack. From static sites to full-stack applications, I bring ideas to life on the web.</p>
+            <a href="#">Learn More</a>
+         </div>   
+
+
+        <div> 
+            <i class="fa-brands fa-app-store"></i> 
+            <h2> Website Optimization & Maintenance</h2>
+            <p>I provide continuous website performance optimization, bug fixing, SEO enhancement, and regular updates to keep your site running smoothly and efficiently</p>
+            <a href="#">Learn More</a>
+         </div>  
+
+         <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2> API Integration & Backend Development</h2>
+            <p>I integrate third-party APIs and build robust backends to power dynamic websites and apps. From payment gateways to user authentication, I ensure everything runs securely and efficiently</p>
+            <a href="#">Learn More</a>
+         </div>  
+
+        </div>
+    </div>
+     
+</div>
+<!--  portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        <div class="work">
+           <img src="images/work-1.png" > 
+           <div class="layer">
+            <h3>social Media Web app</h3>
+            <p>The app connect you to the talented people around the world 
+                download it from playstore
+            </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+        </div>
+          <div class="work">
+           <img src="images/work-2.png" > 
+
+           <div class="layer">
+            <h3>Music Web App</h3>
+            <p>The app connect you to the talented people around the world 
+                download it from playstore</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+
+        </div>
+          <div class="work">
+           <img src="images/work-3.png" > 
+           <div class="layer">
+            <h3>online Shopping Web App</h3>
+            <p>The app connect you to the talented people around the world 
+                download it from playstore</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+        </div>
+        </div>
+<a href="#" class="btn">See More</a>
+
+    </div>
+
+</div>
+
+
+<!--    contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+<h1 class="sub-title">Contact me</h1>
+  <p><i class="fas fa-paper-plane"></i>paraspratapsingh067@gmail.com</p> 
+   <p><i class="fas fa-phone-square-alt"></i>+918218223546</p>
+<div class="social-icons">
+    <a href="https://www.facebook.com/share/1Cx8ZUb9As/">
+<i class="fab fa-facebook"></i></a>
+<a href="https://www.instagram.com/paras_chauhan143?igsh=NHRrbzU3NTd0Y3ds"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com/in/paras-chauhan-726ba9301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+
+</div>
+<a href="Paras Chauhan Resume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+
+
+<div class="contact-right">
+
+<form name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="your email" required>
+    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+
+<span id="msg"></span>
+            </div>
+
+        </div>
+       <div class="copyright">
+        <p>&copy; 2025 Paras Chauhan<i class="fas fa-heart"></i>All rights reserved.</p>
+
+       </div> 
+    </div>
+
+<script>
+
+let tablinks=document.getElementsByClassName("tab-links")
+let tabcontents=document.getElementsByClassName("tab-contents")
+
+function opentab(tabname)
+{
+
+ for(tablink of tablinks)
+{
+    tablink.classList.remove("active-link");
+} 
+
+for(tabcontent of tabcontents)
+{
+    tabcontent.classList.remove("active-tab")
+}
+event.currentTarget.classList.add("active-link")
+document.getElementById(tabname).classList.add("active-tab")
+
+}
+</script>
+
+<script>
+
+    let sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+sidemenu.style.right="0";
+
+    }
+
+function closemenu()
+{
+    sidemenu.style.right="-200px";
+}
+
+    </script>
+
+    <script>
+  const scriptURL='https://script.google.com/macros/s/AKfycbz2-R035Y4jm0KPKcs78BT3KlSjTKrlmv9wi403vLXiNUL59w5CzkB4mjJEFWv4VXmC7g/exec'
+  const form = document.forms['submit-to-google-sheet']
+const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+msg.innerHTML="your form is succefully submitted"
+setTimeout(function(){
+    msg.innerHTML=" ";
+},5000)
+form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+ </body>
+ </html>
