@@ -379,6 +379,8 @@ nav .fas{
 
 @media only screen and (max-width:600px)
 {
+
+ 
 #header{
 
     background-image: url(mobile.png);
@@ -449,6 +451,7 @@ nav ul .fas{
     font-size: 14px;
 
 }
+
 
 
 }
